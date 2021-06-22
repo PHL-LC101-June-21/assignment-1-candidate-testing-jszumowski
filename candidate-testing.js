@@ -43,9 +43,10 @@ function askQuestions() {
   let candidateAnswers5 = input.question(questions[4]);
   let candidateAnswers = [candidateAnswers1, candidateAnswers2, candidateAnswers3, candidateAnswers4, candidateAnswers5];
   //I feel like theres a cleaner way to do this? Like these 6 lines of code could be 1. 
+  //Hi joseph from the past this is today joseph and we just learned loops lol. 
   console.log(`Your answers: ${candidateAnswers}`,`\nCorrect answers: ${answers}`)
 }
-// I'm not sure if this is what they want this to look like? I would love to see the finished program and 
+// I'm not sure if this is what they want this to look like? I would love to see the finished program and try to reverse engineer it if that makes sense. 
 
 function gradeQuiz(candidateAnswers) {
 
