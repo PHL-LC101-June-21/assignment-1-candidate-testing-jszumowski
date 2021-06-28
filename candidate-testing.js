@@ -47,7 +47,7 @@ function gradeQuiz(candidateAnswers) {
     statusPassFail = "ERROR";
   }
   console.log(`>>>>>OVERALL GRADE: ${gradePercentage}% (${grade} out of 5 answers correct.)\n>>>>>STATUS: ${statusPassFail}`);
-  return grade
+  return gradePercentage;
 }
 
 function runProgram() {
